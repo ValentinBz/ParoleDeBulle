@@ -1,0 +1,44 @@
+.homeWelcomeContainer {
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+}
+
+.homeWelcomeImage {
+	width: 50%;
+}
+
+.homeWelcomeContent {
+	width: 50%;
+}
+
+.homeExplicationContainer {
+	background: #5a7ac8;
+	padding: 30px;
+}
+
+.homeInfosContainer {
+	background: #b3c9ee;
+	padding: 30px;
+}
+
+.homeInfosContent {
+	padding: 30px;
+}
+
+.homeInfosButtonContainer {
+	display: block;
+	padding: 10px 20px;
+	border: 1px solid #5a7ac8;
+	background: #b3c9ee;
+	border-radius: 100px;
+	color: #000;
+	transition: background 0.5s ease-out;
+}
+
+.homeInfosButtonContainer:hover {
+	cursor: pointer;
+	background: #5a7ac8;
+	color: #fff;
+	transition: background 0.5s ease-out;
+}

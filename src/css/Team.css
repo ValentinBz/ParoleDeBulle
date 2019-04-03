@@ -1,0 +1,30 @@
+.teamContainer {
+	margin-bottom: 75px;
+}
+
+.teamHeader {
+	margin: 150px 0;
+}
+
+.teamCharactersContainer {
+	display: flex;
+	flex-direction: row;
+	padding: 0 75px;
+}
+
+.teamCharacterBlock {
+	padding: 0 20px;
+}
+
+.teamAvatar {
+	display: block;
+	margin: auto;
+	width: 340px;
+	height: 340px;
+	background: blue;
+	border-radius: 100%;
+}
+
+.teamCharacterName {
+	margin: 50px 0;
+}

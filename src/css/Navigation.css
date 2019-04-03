@@ -1,0 +1,48 @@
+.navigationContainer {
+	flex-grow: 1;
+	background: #5a7ac8;
+	display: flex;
+	flex-direction: row;
+	padding: 0 50px;
+}
+
+.navigationTabsContainer {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.navigationTabs {
+	color: #08090A;
+	font-size: 12px;
+	transition: color 0.3s ease-out;
+}
+
+.navigationTabs:hover {
+	color: #46597E;
+	transition: color 0.3s ease-out;
+	cursor: pointer;
+}
+
+.navigationTabsActive {
+	color: #46597E;
+}
+
+.navigationLinks {
+	text-decoration: none;
+	color: #000;
+}
+
+.navigationLinks,
+.navigationIcons{
+	margin: 0 10px;
+}
+
+.navigationLinksContainer {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
