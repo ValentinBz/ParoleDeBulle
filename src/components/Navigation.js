@@ -12,7 +12,7 @@ const links = [
 
 class Navigation extends PureComponent {
 	state = {
-		index: 1
+		index: 2,
 	};
 
 	_handleClick = (index) => () => {
